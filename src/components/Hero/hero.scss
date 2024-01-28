@@ -1,0 +1,130 @@
+@import '../../variable.scss';
+
+.container{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    .left-side{
+        flex: 1;
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        gap: 20px;
+        .hey-div{
+            display: flex;
+            // justify-content: center;
+            align-items: center;
+            gap: 8px;
+            h3{
+                font-size: 24px;
+                font-weight: 400;
+                letter-spacing: -1px;
+            }
+            strong{
+                font-size: 24px;
+            }
+        }
+        h1{
+            font-size: 36px;
+            font-weight: 500;
+            color: $primary;
+            letter-spacing: -2px;
+        }
+        h4{
+            color: $para-text;
+            letter-spacing: -.5px;
+        }
+        .new-meeting-enter-code-div{
+            display: flex;
+            align-items: center;
+            // justify-content: space-between;
+            gap: 20px;
+        }
+        .input-div{
+            display: flex;
+            align-items: center;
+            border: 1px solid $light-border;
+            border-radius: 6px;
+            padding: 2px 8px;
+            background-color: $bg-color;
+            gap: 8px;
+            // justify-content: c;
+            input{
+                height: 40px;
+                width: 200px;
+                color: $primary;
+                background-color: $bg-color;
+                border: 0px;
+            }
+        }
+        button{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            gap: 8px;
+            justify-content: center;
+            border: 2px solid $primary;
+            color: $bg-color;
+            border-radius: 6px;
+            width: 180px;
+            height: 42px;
+            background-color: $primary;
+            letter-spacing: -1px;
+            font-size: medium;
+        }
+    }
+    .right-side{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 10px;
+        .change-image{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            span{
+                cursor: pointer;
+                // color: green;
+              
+            }
+            img{
+                background-color: $bg-color;
+                height: 200px;
+                width: 300px;
+            }
+        }
+        
+        p{
+            text-align: center;
+            padding: 20px;
+            font-size: 16px;
+            color: $para-text;
+            // width: 500px;
+            .strong{
+                color: $primary;
+                opacity: .7;
+            }
+        }
+        .dots{
+            display: flex;
+            gap: 10px;
+            // margin-bottom: 20px;
+            .dot-1{
+               border-radius: 50px;
+               background-color: $para-text;
+               width: 8px;
+               height: 8px;
+            }
+            .dot-2{
+                border-radius: 50px;
+                background-color: $para-text;
+                width: 8px;
+            height: 8px;
+           }
+
+        }
+    }
+    
+}

@@ -1,0 +1,60 @@
+@import '../../variable.scss';
+
+.land-container{
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    .land-left-side{
+        align-items: flex-start;
+        flex: 1;
+        // padding:   50px 50px 50px 0px ;
+    }
+    
+    .land-right-side{
+        flex: 1;
+        align-items: center;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        border-left: 1.5px solid $light-border;
+        flex-direction: column;
+        padding:   50px 50px 50px 50px;
+        gap: 18px;
+        // background-color: orange;
+
+        input{
+            height: 45px;
+            width: 100%;
+            color: $primary;
+            background-color: $bg-color;
+            color: $primary;
+            border-radius: 6px;
+            background-color: $input-bg-color;
+            border: 0px ;
+            
+        }
+
+        .link-page{
+            width: 100%;
+            height: 45px;
+            // border: 1px solid $primary;
+            button{
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                gap: 12px;
+                justify-content: center;
+                border:  solid $primary;
+                color: $bg-color;
+                border-radius: 6px;
+                width: 100%;
+                height: 100%;
+                background-color: $primary;
+            }
+        }
+            // background-color: orange;
+
+    }
+}

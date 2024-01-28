@@ -1,0 +1,33 @@
+
+// body{
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     margin: auto;
+// }
+.auth-container{
+    height: 400px;
+    width: 400px;
+    background-color: inherit;
+    border: solid 1px white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    input{
+        height: 45px;
+        color: black;
+        // width: 200px;
+    }
+    button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 10px;
+        border: 1px solid white;
+        padding: 9px 20px;
+        border-radius: 8px;
+    }
+}

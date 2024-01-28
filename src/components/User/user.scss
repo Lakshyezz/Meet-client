@@ -1,0 +1,34 @@
+.input-div{
+    display: flex;
+    align-items: center;
+    border: 1px solid $light-border;
+    border-radius: 6px;
+    padding: 2px 8px;
+    background-color: $bg-color;
+    gap: 8px;
+    // justify-content: c;
+}
+input{
+    height: 40px;
+    width: 200px;
+    color: $primary;
+    // background:  url("https://imgs.search.brave.com/HCwgB7AhAYV8q01HwZJ7oW_MHAkS3XtrNMo72CO8Fzo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jZG4y/Lmljb25maW5kZXIu/Y29tL2RhdGEvaWNv/bnMvY3NzLXZvbC0y/LzI0L2tleWJvYXJk/LTY0LnBuZw") 
+    background-color: $bg-color;
+    // padding-left: 28px;
+    *:focus{
+        // outline:  none;
+        border: 1px solid $primary;
+    }
+}
+button{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+    // border: 1px solid #f2f2f2;
+    color: $bg-color;
+    border-radius: 6px;
+    width: 180px;
+    height: 42px;
+    background-color: $primary;
+}

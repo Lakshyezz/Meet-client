@@ -1,0 +1,36 @@
+@import '../../variable.scss';
+
+.navbar-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .left-side{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    opacity: .8;
+    strong{
+      color: $primary;
+    }
+  }
+  h3{
+    font-size: 18px;
+  }
+  img{
+    background-color: $bg-color;
+    width: 70px;
+  }
+  .right-side{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    opacity: .8;
+    img{
+      height: 40px;
+      width: 40px;
+      background-color: #f4f4f4;
+    }
+  
+  }
+}
