@@ -1,4 +1,3 @@
-'use client'
 import React, { useCallback, useEffect, useState } from 'react'
 import './hero.scss'
 import MeetingRoomIcon from '@mui/icons-material/MeetingRoom';
